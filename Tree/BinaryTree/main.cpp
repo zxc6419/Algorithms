@@ -17,19 +17,19 @@ int main(int argc, char* argv[])
 
     BinaryTree binary_tree(&root);
 
-    cout << "====ÖÐÐò±éÀú====" << endl;
+    cout << "====ä¸­åºéåŽ†====" << endl;
     binary_tree.inOrder();
     cout << endl;
 
-    cout << "====Ç°Ðò±éÀú====" << endl;
+    cout << "====å‰åºéåŽ†====" << endl;
     binary_tree.prevOrder();
     cout << endl;
 
-    cout << "====ºóÐò±éÀú====" << endl;
+    cout << "====åŽåºéåŽ†====" << endl;
     binary_tree.postOrder();
     cout << endl;
 
-    cout << "====²ãÐò±éÀú(BFS)====" << endl;
+    cout << "====å±‚åºéåŽ†(BFS)====" << endl;
     binary_tree.LevelOrder();
     cout << endl;
 
