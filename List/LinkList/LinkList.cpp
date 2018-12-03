@@ -5,9 +5,12 @@
 
 using namespace std;
 
+Node::Node(int data, Node *next)
+        : data(data),
+          next(next) {}
+
 LinkList::LinkList()
-        : head_(Node(-1)) {
-}
+        : head_(Node(-1)) {}
 
 LinkList::~LinkList() {
     clear();

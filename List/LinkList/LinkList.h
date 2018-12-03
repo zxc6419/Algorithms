@@ -7,7 +7,7 @@ struct Node {
     int data;
     Node *next;
 
-    explicit Node(int data, Node *next = nullptr) : data(data), next(next) {};
+    explicit Node(int data, Node *next = nullptr);
 };
 
 class LinkList {
@@ -47,8 +47,6 @@ public:
     int &operator[](size_t pos);
 
     void reverse();
-
-    void sort();
 
 private:
     Node head_;
